@@ -1,14 +1,18 @@
-img {
-    height: 300px
-      width: 300px
-  }
+#sayeh-img {
+  display: block;
+  height: auto;
+  width: 30%;
+}
+
+
   
   /* add code here to change the color and font family of your name/title */
   h1 {
       color: red;
-      font-family: Papyrus;
+      font-family: 'Papyrus';
   }
+
   /* Bonus: change the color of your list elements */
   li {
-    color: blue
+    color: blue;
   }
