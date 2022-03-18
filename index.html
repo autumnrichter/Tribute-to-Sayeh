@@ -7,25 +7,98 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-   <!-- Create an H1 tag with your pet's name below-->
-     <h1>Sayeh</h1>
-    
-    <!-- Create an H2 tag with the adoption date below-->
+    <h1>Sayeh</h1>
     <h2>Date Purchased from Breeder: 9/24/2009</h2>
 
-    
-    <h3 id="tagline">This is a fun tribute page to our loyal companions!</h3>
-    <!-- update the img tag of a cat or other pet from google (such as a cat https://placekitten.com/200/300 or a dog https://placedog.net/500/280) -->
-    <img id="sayeh-img" src="Images/sayeh-bday-june2020.jpeg" alt="Our Loyal Companion">
-
+    <h3 id="tagline">This is a tribute page to our precious, sweet, beautiful, and loyal companion!</h3>
+    <!-- Can use image of a cat or other pet from google when doing a tribute page (such as a cat https://placekitten.com/200/300 or a dog https://placedog.net/500/280) -->
     <div>
       <p>
-        <img style="auto" height="300" id="pet" src="https://placedog.net/300/300" alt="Our Loyal Companion">
+        <img id="sayeh-img" src="Images/sayeh-bday-june2020.jpeg" alt="Picture of Sayeh - Our Precious Companion">
       </p>
+      <p>
+        <img id="sayeh-img2" src="Images/sayeh-turtle.jpeg" alt="Picture of Sayeh Resting by Stuffed Turtle Toy">
+      </p>
+    </div>
+   
+    <!-- <div id="videoal">
+      <div class="video">
+          <video controls src="Images/IMG-2353-Sayeh-11th-bday-cod-skin.mov" type="video/mov" alt="A Video of Sayeh's 11th Birthday Eating Dried Cod Skin"></video>
+          <video controls src="Images/IMG_2356-Sayeh-11th-bday-scarf.mov" type="video/mov" alt="A Video of Sayeh's 11th Birthday Wearing Scarf Present"></video>
+          <video controls src="Images/IMG-2352-Sayeh-11th-bday-seaweed.mov" type="video/mov" alt="A Video of Sayeh's 11th Birthday Eating Korean Seaweed"></video>
+      </div>
+    </div>
+  -->
+
+    <div id="videoal">
+      <div class="video">
+          <video controls>
+              <source src="Images/IMG-2353-Sayeh-11th-bday-cod-skin.mov" type="video/mov" alt="A Video of Sayeh's 11th Birthday Eating Dried Cod Skin">
+              <source src="Images/IMG_2356-Sayeh-11th-bday-scarf.mov" type="video/mov" alt="A Video of Sayeh's 11th Birthday Wearing Scarf Present">
+              <source src="Images/IMG-2352-Sayeh-11th-bday-seaweed.mov" type="video/mov" alt="A Video of Sayeh's 11th Birthday Eating Korean Seaweed">
+          </video>
+      </div>
+    </div>
+
+  <!-- MY ORIGINAL CODE FOR VIDEOS 
+  <div class="style">
     <p>
-      <button id="shrink-grow">Shrink/Grow</button>
+    <video controls id="sayeh-vid" width="300" height="400" src="Images/IMG-2353-Sayeh-11th-bday-cod-skin.mov" type="video/mov" alt="A Video of Sayeh's 11th Birthday Eating Dried Cod Skin">
     </p>
-    <em><p>NOTE: This is just a placeholder image and not an actual picture of Sayeh.</p></em>
+  <div class="style">
+    </p>  
+    <video controls id="sayeh-vid2" width="300" height="400" src="Images/IMG_2356-Sayeh-11th-bday-scarf.mov" type="video/mov" alt="A Video of Sayeh's 11th Birthday Wearing Scarf Present">
+    </p>
+  </div>  
+  <div class="style">
+    <video controls id="sayeh-vid3"  width="300" height="400" src="Images/IMG-2352-Sayeh-11th-bday-seaweed.mov" type="video/mov" alt="A Video of Sayeh's 11th Birthday Eating Korean Seaweed">
+  </div>
+  
+  <div>
+    <em><p>NOTE: This below picture is just a placeholder image and not an actual picture of Sayeh. Just using it to demostrate shrink/grow button feature.</p></em>
+    <p>
+      <img style="auto" height="300" id="pet" src="https://placedog.net/300/300" alt="Our Loyal Companion">
+    </p>
+    <p>
+      Thank you <a href="https://placedog.net>Placedog">Placedog</a> for the last dog image.
+    </p>
+  <p>
+    <button id="shrink-grow">Shrink/Grow</button>
+  </p>
+    -->
+    
+  <!-- HTML CODE TO MAKE VIDEOS SIDE BY SIDE AND RESPONSIVE. STACKOVERFLOW. Example used YouTube videos.
+    This isn't working with videos on computer or in VS Code.
+
+    <div class="video-layout">
+      <div class="video">
+      <div id="vid-left">
+        <iframe src="Images/IMG-2353-Sayeh-11th-bday-cod-skin.mov" alt="A Video of Sayeh's 11th Birthday Eating Dried Cod Skin" frameborder="0" allowfullscreen></iframe>>
+      </div>
+      <div id="vid-mid">
+        <iframe src="Images/IMG_2356-Sayeh-11th-bday-scarf.mov" alt="A Video of Sayeh's 11th Birthday Wearing Scarf Present" frameborder="0" allowfullscreen></iframe>>
+      </div>  
+      <div id="vid-right">
+        <iframe src="Images/IMG-2352-Sayeh-11th-bday-seaweed.mov" alt="A Video of Sayeh's 11th Birthday Eating Korean Seaweed" frameborder="0" allowfullscreen></iframe>>
+      </div>
+      </div>
+      </div>
+    -->
+      <div>
+        <em><p>NOTE: This below picture is just a placeholder image and not an actual picture of Sayeh. Just using it to demostrate shrink/grow button feature.</p></em>
+        <p>
+          <img style="auto" height="300" id="pet" src="https://placedog.net/300/300" alt="Our Loyal Companion">
+        </p>
+        <p>
+          Thank you <a href="https://placedog.net>Placedog">Placedog</a> for the last dog image.
+        </p>
+      <p>
+        <button id="shrink-grow">Shrink/Grow</button>
+      </p>
+    
+
+    
+    
     
     <!-- add a p tag with two sentences about your pet -->
     <p>Sayeh is a purebred Doberman who has very human-like mannerisms and expressions. She an extremely special dog for so many reasons, one of which is that she is a service dog for people with Post Traumatic Stress Disorder (PTSD) and anxiety disorders. She has an amazing backstory which is one of the many reasons why she is such an excellent service dog and companion.</p>

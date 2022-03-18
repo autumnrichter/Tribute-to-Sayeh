@@ -1,18 +1,75 @@
-#sayeh-img {
+
+h1 {
+  color: red;
+  font-family: 'Papyrus';
+  }
+
+#sayeh-img,
+#sayeh-img2 {
   display: block;
   height: auto;
   width: 30%;
+  }  
+
+/*div.style {
+  float: left;
+  padding: 12px;
+}
+*/
+
+/* #videoal {
+  /* ... put any margin, padding, etc. here you like */
+/* } */
+
+#videoal div.video {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  width: 200px;
+  height: 200px;
+  margin: 0 10px 10px 0;
 }
 
+#videoal div.video video {
+  width: 100%;
+  height: 100%;
+}
 
-  
-  /* add code here to change the color and font family of your name/title */
-  h1 {
-      color: red;
-      font-family: 'Papyrus';
-  }
-
-  /* Bonus: change the color of your list elements */
-  li {
+li {
     color: blue;
   }
+
+/* CSS code to Make Videos Side by Side and responsive. Example used YouTube videos.
+This isn't working with videos on computer or in VS Code.
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+.video iframe {
+    width: 100%;
+    height: 100%;
+}
+.video-layout {
+    max-width: 500px;
+    border: 1px solid green;
+}
+#vid-left {
+    float: left;
+    padding:5px;
+    width:33%;
+    box-sizing:border-box;
+}
+#vid-mid {
+    float: left;
+    padding:5px;
+    width:33%;
+    box-sizing:border-box;
+}
+#vid-right {
+    float: left;
+    padding:5px;
+    width:33%;
+    box-sizing:border-box;
+}
+*/
