@@ -49,6 +49,10 @@ h3 {
     width: 30%;
   }  
 
+div {
+  padding-left: 20px;
+}
+
 p {
     font-family: 'Helvetica';
 }
