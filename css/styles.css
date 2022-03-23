@@ -18,7 +18,7 @@ html,body
 .part3 {
     background-color:rgb(230, 190, 240); 
     width:100%; 
-    height:75%; 
+    height:85%; 
     float:left;
   }    
 
@@ -30,6 +30,9 @@ html,body
     float:left;
   }
 
+/*****************************
+HEADER
+*****************************/
 h1 {
     color: rgb(230, 167, 221);
     font-family: 'Papyrus';
@@ -42,6 +45,7 @@ h2 {
 h3 {
     font-family: 'Helvetica';
 }
+
 #sayeh-img,
 #sayeh-img2 {
     display: block;
@@ -67,7 +71,39 @@ p {
   /* ... put any margin, padding, etc. here you like */
 /* } */
 
-#videoal div.video {
+
+#videoal tbody.video {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  width: 500px;
+  height: 500px;
+  margin: 0 10px 10px 0;
+  /*  3/22/22 CSS FORMATING FOR TABLE TEST */
+  border-style: solid;
+  border-color: black;
+}
+
+#videoal tbody.video video {
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+
+}
+
+/*  3/22/22 CSS FORMATING FOR TABLE TEST */
+.theaders {
+  border-style: solid;
+  border-color: black;
+}
+
+/*  3/22/22 CSS FORMATING FOR TABLE TEST */
+#scarf {
+  width: 200;
+}
+
+
+/*#videoal div.video {
     display: inline-block;
     zoom: 1;
     *display: inline;
@@ -81,7 +117,7 @@ p {
     height: 100%;
     padding-bottom: 10px;
     padding-top: 10px;
-}
+}*/
 
 /*.fun {
   color: rgb(54, 3, 54);
